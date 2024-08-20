@@ -425,6 +425,9 @@ img {
 .container_footer_logo {
         margin-right: 120px;
 }
+.container_footer_soc {
+        margin-right: 80px;
+}
 .footer_soc_text {
         font-weight: 500;
                 font-size: 16px;
@@ -459,6 +462,56 @@ img {
         fill: #f4f4fd;
 }
 
+.subsribe_text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+}
+.footer_form_cont {
+display: flex;
+gap: 24px;
+}
+.footer_input {
+        border: 1px solid #fff;
+        border-radius: 4px;
+        width: 264px;
+        height: 40px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #2e2f42;
+        padding: 8px 16px;
+}
+.footer_input::placeholder {
+        font-weight: 400;
+                font-size: 12px;
+                line-height: 2;
+                letter-spacing: 0.04em;
+                color: #fff;
+
+}
+.foter_button {
+        display: flex;
+        border-radius: 4px;
+        padding: 8px 24px;
+        width: 165px;
+        height: 40px;
+        background: #4d5ae5;
+        border: none;
+        align-items: center;
+        gap: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+}
+.footter_button_icon {
+fill: #fff;
+}
 .chekbox {
         position: fixed;
         top: 0;
@@ -466,9 +519,9 @@ img {
         background: rgba(46, 47, 66, 0.4);
         width: 100%;
         height: 100%;
-        /* visibility: hidden;
+        visibility: hidden;
         opacity: 0;
-        pointer-events: none; */
+        pointer-events: none;
 }
 .form_wraper {
         position: absolute;
