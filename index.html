@@ -511,8 +511,14 @@
           <div class="form_box">
             <label class="form_label" for="user-phone">Phone</label>
             <div class="form_box_input">
-              <input class="form_input" type="tel" id="user-phone" required />
-              <svg class="form_ikon" width="18" height="18">
+              <input
+                class="form_input"
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+                required
+              />
+              <svg class="form_ikon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
             </div>
@@ -520,19 +526,26 @@
           <div class="form_box">
             <label class="form_label" for="user-email">Email</label>
             <div class="form_box_input">
-              <input class="form_input" type="email" id="user-email" required />
-              <svg class="form_ikon" width="18" height="18">
+              <input
+                class="form_input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                required
+              />
+              <svg class="form_ikon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
             </div>
           </div>
 
           <div class="form_box_coment">
-            <label class="form_label_coment" for="user-coment">Comment</label>
+            <label class="form_label_coment" for="user-comment">Comment</label>
             <textarea
               class="form_textarea"
-              id="user-coment"
+              id="user-comment"
               placeholder="Text input"
+              name="user-comment"
             ></textarea>
           </div>
           <div class="form_box_chekbox">
