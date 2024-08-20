@@ -480,15 +480,16 @@ gap: 24px;
         width: 264px;
         height: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #2e2f42;
+        background: transparent;
         padding: 8px 16px;
-}
-.footer_input::placeholder {
         font-weight: 400;
                 font-size: 12px;
                 line-height: 2;
                 letter-spacing: 0.04em;
                 color: #fff;
+}
+.footer_input::placeholder {
+        color: #fff;
 
 }
 .foter_button {
